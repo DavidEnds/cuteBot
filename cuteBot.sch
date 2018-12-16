@@ -1,0 +1,433 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "zondag 28 september 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L conn:USB_A P?
+U 1 1 5C169616
+P 1400 1800
+F 0 "P?" V 975 1724 50  0000 C CNN
+F 1 "USB_A" V 1066 1724 50  0000 C CNN
+F 2 "" V 1350 1700 50  0001 C CNN
+F 3 "" V 1350 1700 50  0001 C CNN
+	1    1400 1800
+	0    -1   1    0   
+$EndComp
+$Comp
+L tp4056:TP4056 U?
+U 1 1 5C16977B
+P 3400 1750
+F 0 "U?" H 3425 2187 60  0000 C CNN
+F 1 "TP4056" H 3425 2081 60  0000 C CNN
+F 2 "" H 3400 1750 50  0001 C CNN
+F 3 "" H 3400 1750 50  0001 C CNN
+	1    3400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C1699ED
+P 1300 2200
+F 0 "#PWR?" H 1300 1950 50  0001 C CNN
+F 1 "GND" H 1305 2027 50  0000 C CNN
+F 2 "" H 1300 2200 50  0001 C CNN
+F 3 "" H 1300 2200 50  0001 C CNN
+	1    1300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C169A0B
+P 1800 2200
+F 0 "#PWR?" H 1800 1950 50  0001 C CNN
+F 1 "GND" H 1805 2027 50  0000 C CNN
+F 2 "" H 1800 2200 50  0001 C CNN
+F 3 "" H 1800 2200 50  0001 C CNN
+	1    1800 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2100 1300 2200
+Wire Wire Line
+	1700 1900 1800 1900
+Wire Wire Line
+	1800 1900 1800 2200
+$Comp
+L frizzy_ICs:FS312F-G U?
+U 1 1 5C16A145
+P 5350 2450
+F 0 "U?" H 5350 2865 50  0000 C CNN
+F 1 "FS312F-G" H 5350 2774 50  0000 C CNN
+F 2 "" H 5300 2450 50  0001 C CNN
+F 3 "https://www.ic-fortune.com/upload/Download/FS312F-G-DS-10_EN.pdf" H 5300 2450 50  0001 C CNN
+	1    5350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L frizzy_ICs:MT3608 U?
+U 1 1 5C16A2E4
+P 7750 1650
+F 0 "U?" H 7750 1975 50  0000 C CNN
+F 1 "MT3608" H 7750 1884 50  0000 C CNN
+F 2 "" H 7750 1650 50  0001 C CNN
+F 3 "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf" H 7750 1650 50  0001 C CNN
+	1    7750 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:C_Small C?
+U 1 1 5C16A50A
+P 5850 2300
+F 0 "C?" V 5621 2300 50  0000 C CNN
+F 1 "0.1uF" V 5712 2300 50  0000 C CNN
+F 2 "" H 5850 2300 50  0001 C CNN
+F 3 "" H 5850 2300 50  0001 C CNN
+	1    5850 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L device:LED_Small_ALT D?
+U 1 1 5C16A773
+P 4350 2550
+F 0 "D?" V 4304 2648 50  0000 L CNN
+F 1 "RED" V 4395 2648 50  0000 L CNN
+F 2 "" V 4350 2550 50  0001 C CNN
+F 3 "~" V 4350 2550 50  0001 C CNN
+	1    4350 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L device:LED_Small_ALT D?
+U 1 1 5C16A7BD
+P 4200 2550
+F 0 "D?" V 4154 2483 50  0000 R CNN
+F 1 "GREEN" V 4245 2483 50  0000 R CNN
+F 2 "" V 4200 2550 50  0001 C CNN
+F 3 "~" V 4200 2550 50  0001 C CNN
+	1    4200 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R_Small R?
+U 1 1 5C16AA12
+P 2700 2050
+F 0 "R?" H 2759 2096 50  0000 L CNN
+F 1 "2K" H 2759 2005 50  0000 L CNN
+F 2 "" H 2700 2050 50  0001 C CNN
+F 3 "" H 2700 2050 50  0001 C CNN
+	1    2700 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1600 2150 1600
+Wire Wire Line
+	2150 1900 2850 1900
+$Comp
+L device:C_Small C?
+U 1 1 5C16AC67
+P 2150 2050
+F 0 "C?" H 2242 2096 50  0000 L CNN
+F 1 "10uF" H 2242 2005 50  0000 L CNN
+F 2 "" H 2150 2050 50  0001 C CNN
+F 3 "" H 2150 2050 50  0001 C CNN
+	1    2150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C16ACDD
+P 2150 2200
+F 0 "#PWR?" H 2150 1950 50  0001 C CNN
+F 1 "GND" H 2155 2027 50  0000 C CNN
+F 2 "" H 2150 2200 50  0001 C CNN
+F 3 "" H 2150 2200 50  0001 C CNN
+	1    2150 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2200 2150 2150
+$Comp
+L power:GND #PWR?
+U 1 1 5C16AEC0
+P 2500 2200
+F 0 "#PWR?" H 2500 1950 50  0001 C CNN
+F 1 "GND" H 2505 2027 50  0000 C CNN
+F 2 "" H 2500 2200 50  0001 C CNN
+F 3 "" H 2500 2200 50  0001 C CNN
+	1    2500 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1800 2850 1800
+Wire Wire Line
+	2500 1600 2850 1600
+Connection ~ 2500 1800
+Wire Wire Line
+	2500 1800 2500 1600
+Wire Wire Line
+	2500 2200 2500 1800
+Connection ~ 2150 1900
+Wire Wire Line
+	2150 1900 2150 1950
+Wire Wire Line
+	2150 1600 2150 1900
+$Comp
+L power:GND #PWR?
+U 1 1 5C16B206
+P 2700 2200
+F 0 "#PWR?" H 2700 1950 50  0001 C CNN
+F 1 "GND" H 2705 2027 50  0000 C CNN
+F 2 "" H 2700 2200 50  0001 C CNN
+F 3 "" H 2700 2200 50  0001 C CNN
+	1    2700 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2200 2700 2150
+Wire Wire Line
+	2700 1950 2700 1700
+Wire Wire Line
+	2700 1700 2850 1700
+Text GLabel 2150 1550 1    39   Input ~ 0
+Vusb
+Wire Wire Line
+	2150 1600 2150 1550
+Connection ~ 2150 1600
+Text GLabel 4100 1600 2    39   Input ~ 0
+Vusb
+Wire Wire Line
+	4000 1600 4100 1600
+$Comp
+L device:R_Small R?
+U 1 1 5C16C2A9
+P 4200 2250
+F 0 "R?" H 4141 2296 50  0000 R CNN
+F 1 "1K" H 4141 2205 50  0000 R CNN
+F 2 "" H 4200 2250 50  0001 C CNN
+F 3 "" H 4200 2250 50  0001 C CNN
+	1    4200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R_Small R?
+U 1 1 5C16C3AD
+P 4350 2250
+F 0 "R?" H 4409 2296 50  0000 L CNN
+F 1 "1K" H 4409 2205 50  0000 L CNN
+F 2 "" H 4350 2250 50  0001 C CNN
+F 3 "" H 4350 2250 50  0001 C CNN
+	1    4350 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1800 4200 1800
+Wire Wire Line
+	4200 1800 4200 2150
+Wire Wire Line
+	4000 1700 4350 1700
+Wire Wire Line
+	4350 1700 4350 2150
+Wire Wire Line
+	4200 2350 4200 2450
+Wire Wire Line
+	4350 2450 4350 2350
+Wire Wire Line
+	4200 2650 4200 2800
+Wire Wire Line
+	4200 2800 4350 2800
+Wire Wire Line
+	4350 2800 4350 2650
+Text GLabel 4150 2800 0    39   Input ~ 0
+Vusb
+Wire Wire Line
+	4150 2800 4200 2800
+Connection ~ 4200 2800
+$Comp
+L atmel:ATMEGA32U4-MU U?
+U 1 1 5C16DFB4
+P 2100 5900
+F 0 "U?" H 2075 7878 50  0000 C CNN
+F 1 "ATMEGA32U4-MU" H 2075 7787 50  0000 C CNN
+F 2 "QFN44" H 2100 5900 50  0001 C CIN
+F 3 "http://www.atmel.com/images/atmel-7766-8-bit-avr-atmega16u4-32u4_%20datasheet.pdf" H 3200 7000 50  0001 C CNN
+	1    2100 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5C16E564
+P 6450 1500
+F 0 "SW?" V 6404 1648 50  0000 L CNN
+F 1 "SW_SPDT" V 6495 1648 50  0000 L CNN
+F 2 "" H 6450 1500 50  0001 C CNN
+F 3 "" H 6450 1500 50  0001 C CNN
+	1    6450 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R_Small R?
+U 1 1 5C16EAAF
+P 4900 2600
+F 0 "R?" H 4841 2646 50  0000 R CNN
+F 1 "2K" H 4841 2555 50  0000 R CNN
+F 2 "" H 4900 2600 50  0001 C CNN
+F 3 "" H 4900 2600 50  0001 C CNN
+	1    4900 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2300 5700 2300
+Wire Wire Line
+	5950 2300 6100 2300
+Wire Wire Line
+	5650 2450 6100 2450
+Wire Wire Line
+	6100 2450 6100 2300
+Connection ~ 6100 2300
+Wire Wire Line
+	5700 2300 5700 2650
+Wire Wire Line
+	5700 2650 6100 2650
+Connection ~ 5700 2300
+Wire Wire Line
+	5700 2300 5750 2300
+Connection ~ 5700 2650
+Wire Wire Line
+	5050 2600 5000 2600
+Wire Wire Line
+	4700 2300 5050 2300
+$Comp
+L power:GND #PWR?
+U 1 1 5C1724AF
+P 4900 2750
+F 0 "#PWR?" H 4900 2500 50  0001 C CNN
+F 1 "GND" H 4905 2577 50  0000 C CNN
+F 2 "" H 4900 2750 50  0001 C CNN
+F 3 "" H 4900 2750 50  0001 C CNN
+	1    4900 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2500 4900 2450
+Wire Wire Line
+	4900 2450 5050 2450
+Wire Wire Line
+	4900 2700 4900 2750
+$Comp
+L frizzy_ICs:FS8205 U?
+U 1 1 5C16A242
+P 5350 3200
+F 0 "U?" H 5350 2835 50  0000 C CNN
+F 1 "FS8205" H 5350 2926 50  0000 C CNN
+F 2 "" H 5350 3200 50  0001 C CNN
+F 3 "https://www.ic-fortune.com/upload/Download/FS8205-DS-19_EN.pdf" H 5350 3200 50  0001 C CNN
+	1    5350 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 3350 5050 3350
+Wire Wire Line
+	5000 2600 5000 3350
+$Comp
+L power:GND #PWR?
+U 1 1 5C175BAC
+P 5700 3400
+F 0 "#PWR?" H 5700 3150 50  0001 C CNN
+F 1 "GND" H 5705 3227 50  0000 C CNN
+F 2 "" H 5700 3400 50  0001 C CNN
+F 3 "" H 5700 3400 50  0001 C CNN
+	1    5700 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3350 5700 3350
+Wire Wire Line
+	5700 3350 5700 3400
+Wire Wire Line
+	5050 3050 4700 3050
+Wire Wire Line
+	4700 3050 4700 2300
+Wire Wire Line
+	5650 3050 5700 3050
+Wire Wire Line
+	5700 2650 5700 3050
+NoConn ~ 5650 2600
+$Comp
+L conn:CONN_01X01 P?
+U 1 1 5C177DEF
+P 4750 1900
+F 0 "P?" H 4828 1941 50  0000 L CNN
+F 1 "BAT+" H 4828 1850 50  0000 L CNN
+F 2 "" H 4750 1900 50  0001 C CNN
+F 3 "" H 4750 1900 50  0001 C CNN
+	1    4750 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1900 4450 1900
+Wire Wire Line
+	4450 1900 4450 1800
+Wire Wire Line
+	4450 1800 6350 1800
+Wire Wire Line
+	6350 1800 6350 1700
+Connection ~ 4450 1900
+Wire Wire Line
+	4450 1900 4550 1900
+$Comp
+L device:R_Small R?
+U 1 1 5C17910E
+P 4700 2050
+F 0 "R?" V 4600 2000 50  0000 C CNN
+F 1 "100R" V 4800 2050 50  0000 C CNN
+F 2 "" H 4700 2050 50  0001 C CNN
+F 3 "" H 4700 2050 50  0001 C CNN
+	1    4700 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 2050 4450 2050
+Wire Wire Line
+	4450 2050 4450 1900
+Wire Wire Line
+	4800 2050 5100 2050
+Wire Wire Line
+	5100 2050 5100 1950
+Wire Wire Line
+	5100 1950 6100 1950
+Wire Wire Line
+	6100 1950 6100 2300
+$Comp
+L conn:CONN_01X01 P?
+U 1 1 5C17AEBE
+P 6300 2650
+F 0 "P?" H 6378 2691 50  0000 L CNN
+F 1 "BAT-" H 6378 2600 50  0000 L CNN
+F 2 "" H 6300 2650 50  0001 C CNN
+F 3 "" H 6300 2650 50  0001 C CNN
+	1    6300 2650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5650 3200
+NoConn ~ 5050 3200
+Wire Wire Line
+	6450 1300 6450 1200
+Wire Wire Line
+	6450 1200 6950 1200
+Wire Wire Line
+	6950 1200 6950 1650
+Wire Wire Line
+	6950 1650 7450 1650
+NoConn ~ 6550 1700
+$EndSCHEMATC
