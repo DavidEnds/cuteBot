@@ -1778,7 +1778,7 @@ U 1 1 5C80BA4D
 P 8750 3650
 F 0 "Q1" H 8941 3696 50  0000 L CNN
 F 1 "S8050" H 8941 3605 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 8950 3575 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 8950 3575 50  0001 L CIN
 F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 8750 3650 50  0001 L CNN
 	1    8750 3650
 	1    0    0    -1  
@@ -2082,4 +2082,8 @@ F 3 "" H 1000 4050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1200 3850 1450 3850
+Text GLabel 4050 5050 2    50   Input ~ 0
+BUZZ
+Wire Wire Line
+	3950 5050 4050 5050
 $EndSCHEMATC
