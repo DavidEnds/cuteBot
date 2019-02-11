@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/david/Escritorio/Github/cuteBot/cuteBot.sch)
-    (date "lun 11 feb 2019 15:34:38 CET")
+    (date "lun 11 feb 2019 15:38:42 CET")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -393,7 +393,7 @@
       (tstamp 5C51BC9A))
     (comp (ref Q1)
       (value S8050)
-      (footprint TO_SOT_Packages_THT:TO-92_Molded_Narrow)
+      (footprint TO_SOT_Packages_SMD:SOT-23)
       (datasheet http://www.unisonic.com.tw/datasheet/S8050.pdf)
       (libsource (lib Transistor) (part S8050) (description "0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"))
       (sheetpath (names /) (tstamps /))
