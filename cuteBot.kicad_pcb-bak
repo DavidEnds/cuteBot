@@ -73,7 +73,7 @@
     (solder_mask_min_width 0.25)
     (pad_to_paste_clearance -0.04)
     (aux_axis_origin 0 0)
-    (visible_elements FFF9FF7F)
+    (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x3ffff_80000001)
       (usegerberextensions true)
@@ -2997,7 +2997,7 @@
   )
 
   (module Housings_DFN_QFN:WQFN-16-1EP_4x4mm_Pitch0.65mm (layer F.Cu) (tedit 59BA32D6) (tstamp 5C7AF12A)
-    (at 111.6775 97.45)
+    (at 155.420001 99.275001)
     (descr "16-Lead Plastic Quad Flat, No Lead - 4x4x0.75 mm Body [WQFN]; Thermal pad; (http://www.ti.com/lit/ds/symlink/drv8833.pdf)")
     (tags "QFN 0.65")
     (path /5C312681)
