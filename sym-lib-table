@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name cuteBot-rescue)(type Legacy)(uri ${KIPRJMOD}/cuteBot-rescue.lib)(options "")(descr ""))
 )
