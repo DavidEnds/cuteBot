@@ -706,63 +706,20 @@ F 3 "" H 4200 5950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cuteBot-rescue:Crystal_Small-device Y1
+L device:Resonator_Small Y1
 U 1 1 5C2CFA66
-P 1500 4350
-F 0 "Y1" V 1454 4263 50  0000 R CNN
-F 1 "16MHz" V 1545 4263 50  0000 R CNN
-F 2 "Clocks:RESONATOR-SMD-3.2X1.3" H 1500 4350 50  0001 C CNN
-F 3 "" H 1500 4350 50  0001 C CNN
-	1    1500 4350
+P 1400 4350
+F 0 "Y1" V 1250 4200 50  0000 R CNN
+F 1 "16MHz" V 1600 4400 50  0000 R CNN
+F 2 "Clocks:RESONATOR-SMD-3.2X1.3" H 1400 4350 50  0001 C CNN
+F 3 "" H 1400 4350 50  0001 C CNN
+	1    1400 4350
 	0    1    1    0   
 $EndComp
-$Comp
-L cuteBot-rescue:C_Small-device C5
-U 1 1 5C2CFD53
-P 1300 4200
-F 0 "C5" V 1071 4200 50  0000 C CNN
-F 1 "22pF" V 1162 4200 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 1300 4200 50  0001 C CNN
-F 3 "" H 1300 4200 50  0001 C CNN
-	1    1300 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L cuteBot-rescue:C_Small-device C6
-U 1 1 5C2CFF48
-P 1300 4500
-F 0 "C6" V 1437 4500 50  0000 C CNN
-F 1 "22pF" V 1528 4500 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 1300 4500 50  0001 C CNN
-F 3 "" H 1300 4500 50  0001 C CNN
-	1    1300 4500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1400 4200 1500 4200
-Wire Wire Line
-	1500 4200 1500 4250
 Wire Wire Line
 	1700 4250 1500 4250
-Connection ~ 1500 4250
 Wire Wire Line
 	1500 4450 1700 4450
-Wire Wire Line
-	1500 4450 1500 4500
-Wire Wire Line
-	1500 4500 1400 4500
-Connection ~ 1500 4450
-Wire Wire Line
-	1200 4200 1100 4200
-Wire Wire Line
-	1100 4200 1100 4350
-Wire Wire Line
-	1100 4500 1200 4500
-Wire Wire Line
-	1100 4350 1050 4350
-Connection ~ 1100 4350
-Wire Wire Line
-	1100 4350 1100 4500
 $Comp
 L power:GND #PWR011
 U 1 1 5C2E3814
@@ -2086,4 +2043,6 @@ Text GLabel 4050 5050 2    50   Input ~ 0
 BUZZ
 Wire Wire Line
 	3950 5050 4050 5050
+Wire Wire Line
+	1050 4350 1200 4350
 $EndSCHEMATC
