@@ -37,7 +37,7 @@ F 3 "" H 3400 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR01
+L cuteBot-rescue:GND-power #PWR01
 U 1 1 5C1699ED
 P 1300 2200
 F 0 "#PWR01" H 1300 1950 50  0001 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 1300 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L cuteBot-rescue:GND-power #PWR02
 U 1 1 5C169A0B
 P 1800 2200
 F 0 "#PWR02" H 1800 1950 50  0001 C CNN
@@ -146,7 +146,7 @@ F 3 "" H 2150 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR03
+L cuteBot-rescue:GND-power #PWR03
 U 1 1 5C16ACDD
 P 2150 2200
 F 0 "#PWR03" H 2150 1950 50  0001 C CNN
@@ -159,7 +159,7 @@ $EndComp
 Wire Wire Line
 	2150 2200 2150 2150
 $Comp
-L power:GND #PWR04
+L cuteBot-rescue:GND-power #PWR04
 U 1 1 5C16AEC0
 P 2500 2200
 F 0 "#PWR04" H 2500 1950 50  0001 C CNN
@@ -184,7 +184,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 1600 2150 1900
 $Comp
-L power:GND #PWR05
+L cuteBot-rescue:GND-power #PWR05
 U 1 1 5C16B206
 P 2700 2200
 F 0 "#PWR05" H 2700 1950 50  0001 C CNN
@@ -255,7 +255,7 @@ Wire Wire Line
 	4150 2800 4200 2800
 Connection ~ 4200 2800
 $Comp
-L Switch:SW_SPDT SW1
+L cuteBot-rescue:SW_SPDT-Switch SW1
 U 1 1 5C16E564
 P 6450 1500
 F 0 "SW1" V 6404 1648 50  0000 L CNN
@@ -298,7 +298,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 2300 5050 2300
 $Comp
-L power:GND #PWR06
+L cuteBot-rescue:GND-power #PWR06
 U 1 1 5C1724AF
 P 4900 2750
 F 0 "#PWR06" H 4900 2500 50  0001 C CNN
@@ -330,7 +330,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 2600 5000 3350
 $Comp
-L power:GND #PWR07
+L cuteBot-rescue:GND-power #PWR07
 U 1 1 5C175BAC
 P 5700 3400
 F 0 "#PWR07" H 5700 3150 50  0001 C CNN
@@ -461,7 +461,7 @@ Connection ~ 7400 1650
 Wire Wire Line
 	7400 1650 7450 1650
 $Comp
-L power:GND #PWR08
+L cuteBot-rescue:GND-power #PWR08
 U 1 1 5C16E214
 P 7700 2050
 F 0 "#PWR08" H 7700 1800 50  0001 C CNN
@@ -533,7 +533,7 @@ Wire Wire Line
 	8500 1750 8500 1800
 Connection ~ 8500 1750
 $Comp
-L power:GND #PWR09
+L cuteBot-rescue:GND-power #PWR09
 U 1 1 5C182A81
 P 8500 2100
 F 0 "#PWR09" H 8500 1850 50  0001 C CNN
@@ -566,7 +566,7 @@ Wire Wire Line
 	8850 1250 8500 1250
 Connection ~ 8500 1250
 $Comp
-L power:GND #PWR010
+L cuteBot-rescue:GND-power #PWR010
 U 1 1 5C187DD9
 P 8850 2100
 F 0 "#PWR010" H 8850 1850 50  0001 C CNN
@@ -648,7 +648,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 1800 1800 1800
 $Comp
-L power:GND #PWR015
+L cuteBot-rescue:GND-power #PWR015
 U 1 1 5C199DCA
 P 2850 7250
 F 0 "#PWR015" H 2850 7000 50  0001 C CNN
@@ -680,7 +680,7 @@ Connection ~ 2800 7100
 Wire Wire Line
 	2800 7100 2850 7100
 $Comp
-L power:GND #PWR014
+L cuteBot-rescue:GND-power #PWR014
 U 1 1 5C1A64F3
 P 2450 7250
 F 0 "#PWR014" H 2450 7000 50  0001 C CNN
@@ -695,7 +695,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 5950 4200 5950
 $Comp
-L power:GND #PWR016
+L cuteBot-rescue:GND-power #PWR016
 U 1 1 5C1AC2E2
 P 4200 5950
 F 0 "#PWR016" H 4200 5700 50  0001 C CNN
@@ -706,7 +706,7 @@ F 3 "" H 4200 5950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:Resonator_Small Y1
+L cuteBot-rescue:Resonator_Small-device Y1
 U 1 1 5C2CFA66
 P 1400 4350
 F 0 "Y1" V 1250 4200 50  0000 R CNN
@@ -721,7 +721,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 4450 1700 4450
 $Comp
-L power:GND #PWR011
+L cuteBot-rescue:GND-power #PWR011
 U 1 1 5C2E3814
 P 1050 4350
 F 0 "#PWR011" H 1050 4100 50  0001 C CNN
@@ -791,7 +791,7 @@ F 3 "" H 1600 5700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR012
+L cuteBot-rescue:GND-power #PWR012
 U 1 1 5C2F592E
 P 1600 5850
 F 0 "#PWR012" H 1600 5600 50  0001 C CNN
@@ -823,7 +823,7 @@ F 3 "" H 1650 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR013
+L cuteBot-rescue:GND-power #PWR013
 U 1 1 5C300FD5
 P 1650 6550
 F 0 "#PWR013" H 1650 6300 50  0001 C CNN
@@ -903,7 +903,7 @@ Wire Wire Line
 	10350 5850 10450 5850
 NoConn ~ 10200 5300
 $Comp
-L power:GND #PWR019
+L cuteBot-rescue:GND-power #PWR019
 U 1 1 5C33D266
 P 9550 6150
 F 0 "#PWR019" H 9550 5900 50  0001 C CNN
@@ -949,7 +949,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 4650 9700 4600
 $Comp
-L power:GND #PWR020
+L cuteBot-rescue:GND-power #PWR020
 U 1 1 5C37A124
 P 9700 4350
 F 0 "#PWR020" H 9700 4100 50  0001 C CNN
@@ -1032,7 +1032,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 4650 10200 4350
 $Comp
-L power:GND #PWR021
+L cuteBot-rescue:GND-power #PWR021
 U 1 1 5C3C4FED
 P 10350 4650
 F 0 "#PWR021" H 10350 4400 50  0001 C CNN
@@ -1221,7 +1221,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 6050 6600 6400
 $Comp
-L power:GND #PWR017
+L cuteBot-rescue:GND-power #PWR017
 U 1 1 5C493FF5
 P 6600 7600
 F 0 "#PWR017" H 6600 7350 50  0001 C CNN
@@ -1319,7 +1319,7 @@ Wire Wire Line
 	5650 7400 5700 7400
 Connection ~ 5700 7400
 $Comp
-L power:GND #PWR026
+L cuteBot-rescue:GND-power #PWR026
 U 1 1 5C50E7B8
 P 5400 7400
 F 0 "#PWR026" H 5400 7150 50  0001 C CNN
@@ -1332,7 +1332,7 @@ $EndComp
 Wire Wire Line
 	5400 7400 5450 7400
 $Comp
-L power:GND #PWR025
+L cuteBot-rescue:GND-power #PWR025
 U 1 1 5C51B573
 P 5400 7000
 F 0 "#PWR025" H 5400 6750 50  0001 C CNN
@@ -1345,7 +1345,7 @@ $EndComp
 Wire Wire Line
 	5400 7000 5450 7000
 $Comp
-L power:GND #PWR024
+L cuteBot-rescue:GND-power #PWR024
 U 1 1 5C5283D6
 P 5400 6650
 F 0 "#PWR024" H 5400 6400 50  0001 C CNN
@@ -1364,7 +1364,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 6300 5700 6300
 $Comp
-L power:GND #PWR023
+L cuteBot-rescue:GND-power #PWR023
 U 1 1 5C55CF5B
 P 5400 6300
 F 0 "#PWR023" H 5400 6050 50  0001 C CNN
@@ -1377,7 +1377,7 @@ $EndComp
 Wire Wire Line
 	5400 6300 5450 6300
 $Comp
-L power:GND #PWR022
+L cuteBot-rescue:GND-power #PWR022
 U 1 1 5C56A50E
 P 5400 5950
 F 0 "#PWR022" H 5400 5700 50  0001 C CNN
@@ -1390,7 +1390,7 @@ $EndComp
 Wire Wire Line
 	5400 5950 5450 5950
 $Comp
-L Switch:SW_Push SW2
+L cuteBot-rescue:SW_Push-Switch SW2
 U 1 1 5C5869BB
 P 10600 3050
 F 0 "SW2" V 10554 3198 50  0000 L CNN
@@ -1401,7 +1401,7 @@ F 3 "" H 10600 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR027
+L cuteBot-rescue:GND-power #PWR027
 U 1 1 5C586C51
 P 10600 3300
 F 0 "#PWR027" H 10600 3050 50  0001 C CNN
@@ -1450,92 +1450,6 @@ Text GLabel 4050 4850 2    39   Input ~ 0
 B1
 Wire Wire Line
 	3950 4850 4050 4850
-Wire Wire Line
-	3950 3850 4050 3850
-Wire Wire Line
-	3950 5550 4050 5550
-Text GLabel 4050 3850 2    39   Input ~ 0
-RX_LED
-Text GLabel 4050 5550 2    39   Input ~ 0
-TX_LED
-Text GLabel 4000 3200 2    39   Input ~ 0
-RX_LED
-Text GLabel 4000 3350 2    39   Input ~ 0
-TX_LED
-$Comp
-L cuteBot-rescue:R_Small-device R13
-U 1 1 5C5F9433
-P 3850 3200
-F 0 "R13" V 3654 3200 50  0000 C CNN
-F 1 "330" V 3745 3200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 3850 3200 50  0001 C CNN
-F 3 "" H 3850 3200 50  0001 C CNN
-	1    3850 3200
-	0    1    1    0   
-$EndComp
-$Comp
-L cuteBot-rescue:R_Small-device R14
-U 1 1 5C5F9772
-P 3850 3350
-F 0 "R14" V 3950 3500 50  0000 C CNN
-F 1 "330" V 3950 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H 3850 3350 50  0001 C CNN
-F 3 "" H 3850 3350 50  0001 C CNN
-	1    3850 3350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3950 3200 4000 3200
-Wire Wire Line
-	3950 3350 4000 3350
-$Comp
-L cuteBot-rescue:LED_Small_ALT-device D4
-U 1 1 5C6179F6
-P 3600 3200
-F 0 "D4" H 3600 2995 50  0000 C CNN
-F 1 "GREEN" H 3600 3086 50  0000 C CNN
-F 2 "LEDs:LED_0603" V 3600 3200 50  0001 C CNN
-F 3 "~" V 3600 3200 50  0001 C CNN
-	1    3600 3200
-	-1   0    0    1   
-$EndComp
-$Comp
-L cuteBot-rescue:LED_Small_ALT-device D5
-U 1 1 5C617D36
-P 3600 3350
-F 0 "D5" H 3600 3600 50  0000 C CNN
-F 1 "RED" H 3600 3500 50  0000 C CNN
-F 2 "LEDs:LED_0603" V 3600 3350 50  0001 C CNN
-F 3 "~" V 3600 3350 50  0001 C CNN
-	1    3600 3350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3700 3200 3750 3200
-Wire Wire Line
-	3700 3350 3750 3350
-Wire Wire Line
-	3450 3200 3450 3350
-Wire Wire Line
-	3450 3350 3500 3350
-Wire Wire Line
-	3450 3200 3500 3200
-$Comp
-L cuteBot-rescue:5V-SparkFun-Aesthetics #SUPPLY07
-U 1 1 5C654626
-P 3300 3150
-F 0 "#SUPPLY07" H 3300 3150 50  0001 L BNN
-F 1 "5V" H 3300 3324 50  0000 C CNN
-F 2 "" H 3300 3150 50  0001 C CNN
-F 3 "" H 3300 3150 50  0001 C CNN
-	1    3300 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 3200 3450 3200
-Connection ~ 3450 3200
-Wire Wire Line
-	3300 3150 3300 3200
 $Comp
 L cuteBot-rescue:JDY-08-jdy-08 U7
 U 1 1 5C506A1A
@@ -1559,7 +1473,7 @@ F 3 "http://ww1.microchip.com/downloads/en/devicedoc/mic5219.pdf" H 10000 1350 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR028
+L cuteBot-rescue:GND-power #PWR028
 U 1 1 5C50B398
 P 5250 5400
 F 0 "#PWR028" H 5250 5150 50  0001 C CNN
@@ -1622,7 +1536,7 @@ Wire Wire Line
 	9500 1250 9500 1200
 Connection ~ 9600 1250
 $Comp
-L power:GND #PWR029
+L cuteBot-rescue:GND-power #PWR029
 U 1 1 5C53DBA7
 P 10000 1700
 F 0 "#PWR029" H 10000 1450 50  0001 C CNN
@@ -1639,7 +1553,7 @@ Wire Wire Line
 Wire Wire Line
 	10450 1350 10450 1450
 $Comp
-L power:GND #PWR030
+L cuteBot-rescue:GND-power #PWR030
 U 1 1 5C55FC08
 P 10450 1700
 F 0 "#PWR030" H 10450 1450 50  0001 C CNN
@@ -1661,7 +1575,7 @@ Wire Wire Line
 	10850 1250 10850 1200
 Connection ~ 10750 1250
 $Comp
-L power:GND #PWR031
+L cuteBot-rescue:GND-power #PWR031
 U 1 1 5C5936C6
 P 10750 1700
 F 0 "#PWR031" H 10750 1450 50  0001 C CNN
@@ -1784,7 +1698,7 @@ $EndComp
 Wire Wire Line
 	8850 3050 8850 3150
 $Comp
-L power:GND #PWR018
+L cuteBot-rescue:GND-power #PWR018
 U 1 1 5C856F7D
 P 8850 3950
 F 0 "#PWR018" H 8850 3700 50  0001 C CNN
@@ -1797,7 +1711,7 @@ $EndComp
 Wire Wire Line
 	8850 3850 8850 3950
 $Comp
-L Diode:1N4148 D6
+L cuteBot-rescue:1N4148-Diode D6
 U 1 1 5C86AC7E
 P 8750 3250
 F 0 "D6" V 8704 3171 50  0000 R CNN
@@ -1856,7 +1770,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 3100 7650 3050
 $Comp
-L power:GND #PWR032
+L cuteBot-rescue:GND-power #PWR032
 U 1 1 5C719E40
 P 7650 3350
 F 0 "#PWR032" H 7650 3100 50  0001 C CNN
@@ -1875,7 +1789,7 @@ MOSI
 Wire Wire Line
 	7600 3200 7650 3200
 $Comp
-L power:GND #PWR034
+L cuteBot-rescue:GND-power #PWR034
 U 1 1 5C747463
 P 8650 5250
 F 0 "#PWR034" H 8650 5000 50  0001 C CNN
@@ -1918,7 +1832,7 @@ RST
 Wire Wire Line
 	700  3850 800  3850
 $Comp
-L power:GND #PWR033
+L cuteBot-rescue:GND-power #PWR033
 U 1 1 5C80B676
 P 700 3950
 F 0 "#PWR033" H 700 3700 50  0001 C CNN
@@ -2005,7 +1919,7 @@ Wire Wire Line
 	4200 7050 4200 7150
 Connection ~ 4000 7050
 $Comp
-L power:GND #PWR035
+L cuteBot-rescue:GND-power #PWR035
 U 1 1 5C8FDA07
 P 4000 7450
 F 0 "#PWR035" H 4000 7200 50  0001 C CNN
@@ -2027,7 +1941,7 @@ F 3 "" H 4000 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW3
+L cuteBot-rescue:SW_Push-Switch SW3
 U 1 1 5C9028BA
 P 1000 3850
 F 0 "SW3" V 954 3998 50  0000 L CNN
@@ -2045,4 +1959,10 @@ Wire Wire Line
 	3950 5050 4050 5050
 Wire Wire Line
 	1050 4350 1200 4350
+Text Notes 9150 3600 0    50   ~ 0
+ERROR
+Text GLabel 4050 5150 2    39   Input ~ 0
+NEO
+Wire Wire Line
+	3950 5150 4050 5150
 $EndSCHEMATC
